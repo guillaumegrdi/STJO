@@ -1,0 +1,219 @@
+@font-face {
+  font-family: minecraft;
+  src: url(./MinecraftRegular-Bmg3.otf);
+}
+@font-face {
+  font-family: minecraftitalic;
+  src: url(./MinecraftBold-nMK1.otf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-decoration: none;
+}
+body {
+  margin-top: 2000px;
+  height: 100000px;
+}
+
+.head-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.title-container img {
+  width: 700px;
+  position: fixed;
+  top: 150px;
+}
+.suggestion-container {
+  display: flex;
+  justify-content: center;
+}
+
+.suggestion-container span {
+  height: 60px;
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-family: minecraft;
+  position: absolute;
+  top: 20px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.second-title-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin: 0;
+}
+.second-title-container img {
+  width: 400px;
+  /* margin-bottom: 100px; */
+}
+.second-content-container {
+  display: flex;
+  align-items: center;
+}
+.second-image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 50px;
+}
+.second-image-container img {
+  width: 300px;
+  margin: 0;
+}
+.second-text-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin: 0;
+}
+
+.second-text-container span {
+  font-family: minecraft;
+  font-size: 30px;
+}
+
+.second-container-textarea {
+  position: fixed;
+  width: 725px;
+  height: 400px;
+  left: 700px;
+  top: 150px;
+  font-family: minecraftitalic;
+}
+.second-container-textarea p {
+  position: fixed;
+  top: 680px;
+  right: 150px;
+  font-size: 30px;
+}
+
+#text1 {
+  margin-bottom: 150px;
+}
+
+#animationimg1 {
+  width: 150px;
+  display: none;
+}
+#animationimg2 {
+  width: 100px;
+  z-index: 3;
+  display: none;
+}
+#animationimg3 {
+  position: fixed;
+  width: 45px;
+  top: 405px;
+  left: 860px;
+  z-index: 3;
+  display: none;
+}
+#animationimg4 {
+  position: fixed;
+  top: 405px;
+  left: 810px;
+  width: 45px;
+  z-index: 3;
+  display: none;
+}
+#fixedimg1 {
+  width: 150px;
+  position: fixed;
+  z-index: -1;
+  top: 414.5px;
+  right: 483px;
+  display: none;
+}
+#fixedimg2 {
+  width: 150px;
+  position: fixed;
+  z-index: -1;
+  top: 414.5px;
+  right: 617px;
+  display: none;
+}
+#fixedimg3 {
+  width: 150px;
+  position: fixed;
+  z-index: -3;
+  top: 381px;
+  right: 550px;
+  display: none;
+}
+#fixedimg4 {
+  display: none;
+}
+#fixedimg5 {
+  width: 30px;
+  position: fixed;
+  top: 335px;
+  left: 890px;
+
+  display: none;
+}
+#fixedimg6 {
+  top: 335px;
+  left: 926px;
+  width: 30px;
+  position: fixed;
+  display: none;
+}
+#fixedimg7 {
+  left: 890px;
+  top: 370px;
+  width: 30px;
+  position: fixed;
+  display: none;
+}
+#fixedimg8 {
+  left: 926px;
+  top: 370px;
+  width: 30px;
+  position: fixed;
+  display: none;
+}
+#fixedimg9 {
+  width: 30px;
+  position: fixed;
+  left: 890px;
+  display: none;
+
+  top: 407px;
+}
+#fixedimg10 {
+  left: 926px;
+  top: 407px;
+  width: 30px;
+  display: none;
+
+  position: fixed;
+}
+#fixedimg11 {
+  left: 1080px;
+  top: 360px;
+  width: 30px;
+  display: none;
+  position: fixed;
+}
