@@ -2,11 +2,17 @@
     font-family: minecraft;
     src: url(./MinecraftRegular-Bmg3.otf);
 }
+@font-face {
+    font-family: grotesk;
+    src: url(./SpaceGrotesk-VariableFont_wght.ttf);
+}
   
 *{
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
+    color: white;
+    font-family: grotesk;
 }
 body{
 margin: 0;
@@ -14,13 +20,15 @@ display: flex;
 background-color: black;
 height: 2000px;
 
+
 }
 
 .main-container{
-    width: 80vw;
+    width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
+    padding-left: 20vw;
 }
 .second-container{
     width: 80%;
@@ -29,6 +37,7 @@ height: 2000px;
     justify-content: center;
 }
 .nav-container{
+    position: fixed;
     width: 20vw;
     height: 90vh;
     padding: 35px;
@@ -72,8 +81,11 @@ height: 2000px;
 }
 .li-container:hover{
 background-color: rgba(255, 255, 255, 0.863);
-color: black;
 transition: 300ms;
+}
+.li-container:hover li{
+color: rgb(0, 0, 0);
+
 }
 .li-container:active{
 transform: scale(0.95);
@@ -82,3 +94,27 @@ transition: 100ms;
 .li-container li{
 padding-left: 20px;
 }
+.preface-title-container{
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+    padding-top: 100px;
+}
+
+.preface-title-container h1{
+text-align: center;
+font-family: grotesk;
+}
+.preface-content-container span{
+    color: rgb(177, 91, 91);
+    font-size: 35px;
+}
+
+
+.story-container{
+    height: 100%;
+    height: 100%;
+}
+
+
+
