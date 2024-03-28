@@ -12,7 +12,7 @@ const lecteurcontainer = document.querySelector(".lecteur-container");
 const closebtn = document.getElementById("close-btn");
 imagetozoom2.style.marginTop = "-50px";
 const blancsouris = document.getElementById('blancsouris')
-
+const body = document.querySelector('body')
 li1.addEventListener("click", (e) => {
   window.scrollTo({
     top: 400,
@@ -47,12 +47,12 @@ closebtn.addEventListener("click", () => {
   imagetozoom2.style.marginTop = "-50px";
 });
 window.addEventListener('mousemove', (e) =>{
-  console.log(e.pageX);
-  console.log(e.pageY);
   blancsouris.style.left = e.pageX + "px"
   blancsouris.style.top = e.pageY + "px"
   blancsouris.style.transform = "translate(-25px, -25px)";
 })
+
+
 
 li1.addEventListener("mouseenter", () =>{
   blancsouris.style.boxShadow = "15px 15px 500px 50px rgb(0, 255, 21"

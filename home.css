@@ -22,7 +22,7 @@ body {
   margin: 0;
   display: flex;
   background-color: black;
-  height: 2000px;
+
 }
 .lecteur {
   width: 100vw;
@@ -93,7 +93,7 @@ body {
  width: 0px;
 height: 0px;
 position: absolute;
-box-shadow: 15px 15px 500px 50px rgb(255, 255, 255);
+box-shadow: 15px 15px 1000px 70px rgb(255, 255, 255);
 z-index: -1000;
 
 }
@@ -185,7 +185,6 @@ z-index: -1000;
 }
 
 .story-container {
-  height: 100%;
   width: 100%;
   padding-top: 100px;
 }
