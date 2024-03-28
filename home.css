@@ -89,6 +89,14 @@ body {
   color: rgb(138, 46, 224);
   transition: 300ms;
 }
+#blancsouris{
+ width: 0px;
+height: 0px;
+position: absolute;
+box-shadow: 15px 15px 500px 50px rgb(255, 255, 255);
+z-index: -1000;
+
+}
 .main-container {
   width: 100vw;
   height: 100vh;
