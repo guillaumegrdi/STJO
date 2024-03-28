@@ -19,6 +19,12 @@ li1.addEventListener("click", (e) => {
     behavior: "smooth",
   });
 });
+li2.addEventListener("click", (e) => {
+  window.scrollTo({
+    top: 2300,
+    behavior: "smooth",
+  });
+});
 
 window.addEventListener("scroll", (e) => {
   console.log(window.scrollY);
@@ -27,6 +33,13 @@ window.addEventListener("scroll", (e) => {
   }
   if (window.scrollY >= 400) {
     li1.style.backgroundColor = "rgb(43, 110, 49)";
+  }
+  if (window.scrollY < 2300) {
+    li2.style.backgroundColor = "";
+  }
+  if (window.scrollY >= 2300) {
+    li1.style.backgroundColor = "";
+    li2.style.backgroundColor = "rgb(43, 110, 49)";
   }
 });
 

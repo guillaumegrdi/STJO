@@ -12,6 +12,7 @@
 }
 
 * {
+
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
@@ -22,7 +23,7 @@ body {
   margin: 0;
   display: flex;
   background-color: black;
-
+height: 10000000px;
 }
 .lecteur {
   width: 100vw;
@@ -202,10 +203,17 @@ z-index: -1000;
 .story-container-subsection-title {
   text-align: center;
 }
+.functioning-content-container {
+  padding-top: 70px;
+}
+.functioning-container-subsection-title {
+  text-align: center;
+  padding-top: 70px;
+}
+
 
 .story-content-container {
   padding-top: 70px;
-
   display: flex;
   align-items: start;
 }
@@ -259,4 +267,9 @@ z-index: -1000;
 .textend {
   display: flex;
   justify-content: end;
+}
+
+.functioning-content-container-text{
+  font-size: 20px;
+  width: 50%;
 }
