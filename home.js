@@ -94,9 +94,7 @@ window.addEventListener("keypress", (e) => {
                                   if (e.key == "d") {
                                     window.addEventListener("keypress", (e) => {
                                       if (e.key == "e") {
-                                        window.open("index.html");
-                                        // lecteur.style.display = "block";
-                                        // lecteurcontainer.innerHTML = ` <img src="Alpha_v1.1.1.webp" alt="" id="imagetozoom1" />`;
+                                        window.open("loup.html");
                                       }
                                     });
                                   }
