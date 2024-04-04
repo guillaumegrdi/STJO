@@ -74,27 +74,94 @@ zoombtn3.addEventListener("click", () => {
   lecteurcontainer.innerHTML = ` <img src="Alpha_v1.1.1.webp" alt="" id="imagetozoom1" />`;
 });
 
-window.addEventListener("keypress", (e) => {
+window.addEventListener("keydown", (e) => {
+  if (e.key == "Escape") {
+    lecteur.style.display = "none";
+    imagetozoom1.style.width = "500px";
+    imagetozoom1.style.marginTop = "-20px";
+    imagetozoom2.style.width = "500px";
+    imagetozoom2.style.marginTop = "-50px";
+  }
+});
+
+window.addEventListener("keydown", (e) => {
   if (e.key == "k") {
-    window.addEventListener("keypress", (e) => {
+    window.addEventListener("keydown", (e) => {
       if (e.key == "o") {
-        window.addEventListener("keypress", (e) => {
+        window.addEventListener("keydown", (e) => {
           if (e.key == "n") {
-            window.addEventListener("keypress", (e) => {
+            window.addEventListener("keydown", (e) => {
               if (e.key == "a") {
-                window.addEventListener("keypress", (e) => {
+                window.addEventListener("keydown", (e) => {
                   if (e.key == "m") {
-                    window.addEventListener("keypress", (e) => {
+                    window.addEventListener("keydown", (e) => {
                       if (e.key == "i") {
-                        window.addEventListener("keypress", (e) => {
+                        window.addEventListener("keydown", (e) => {
                           if (e.key == "c") {
-                            window.addEventListener("keypress", (e) => {
+                            window.addEventListener("keydown", (e) => {
                               if (e.key == "o") {
-                                window.addEventListener("keypress", (e) => {
+                                window.addEventListener("keydown", (e) => {
                                   if (e.key == "d") {
-                                    window.addEventListener("keypress", (e) => {
+                                    window.addEventListener("keydown", (e) => {
                                       if (e.key == "e") {
                                         window.open("loup.html");
+                                      }
+                                    });
+                                  }
+                                });
+                              }
+                            });
+                          }
+                        });
+                      }
+                    });
+                  }
+                });
+              }
+            });
+          }
+        });
+      }
+    });
+  }
+});
+
+window.addEventListener("keydown", (e) => {
+  console.log(e);
+  if (e.key == "ArrowRight") {
+    window.addEventListener("keydown", (e) => {
+      if (e.key == "ArrowUp") {
+        window.addEventListener("keydown", (e) => {
+          if (e.key == "ArrowDown") {
+            window.addEventListener("keydown", (e) => {
+              if (e.key == "ArrowLeft") {
+                window.addEventListener("keydown", (e) => {
+                  if (e.key == "a") {
+                    window.addEventListener("keydown", (e) => {
+                      if (e.key == "ArrowRight") {
+                        window.addEventListener("keydown", (e) => {
+                          if (e.key == "b") {
+                            window.addEventListener("keydown", (e) => {
+                              if (e.key == "ArrowRight") {
+                                window.addEventListener("keydown", (e) => {
+                                  if (e.key == "a") {
+                                    window.addEventListener("keydown", (e) => {
+                                      if (e.key == "b") {
+                                        window.addEventListener(
+                                          "keydown",
+                                          (e) => {
+                                            if (e.key == "ArrowLeft") {
+                                              window.addEventListener(
+                                                "keydown",
+                                                (e) => {
+                                                  if (e.key == "Escape") {
+                                                    window.open("youtube.com");
+                                                  }
+                                                }
+                                              );
+                                            }
+                                          }
+                                        );
                                       }
                                     });
                                   }
